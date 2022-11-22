@@ -1,0 +1,39 @@
+.contact {
+    padding-bottom: 50px;
+}
+
+.contact_info_list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 40px;
+}
+
+.contact_info_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    column-gap: 1rem;
+}
+
+.contact_info_item p {
+    margin-bottom: 0;
+
+}
+
+.contact_info_item span i {
+    color: #01d293;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.social_links {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    column-gap: 1rem;
+    color: #808dad !important;
+    font-size: 1.3rem !important;
+    cursor: pointer;
+
+}

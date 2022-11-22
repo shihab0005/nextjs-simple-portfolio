@@ -1,0 +1,22 @@
+.contactForm_group input,
+.contactForm_group textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #171f38;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contactForm_group input::placeholder,
+.contactForm_group textarea::placeholder {
+    font-size: 0.9rem;
+    color: #808dad;
+    font-weight: 500;
+}
+
+.contactForm button {
+    color: #01d293;
+}

@@ -1,26 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
-  color: inherit;
+  color: unset;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+  background: #0e1630;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+p {
+  color: #808dad;
+  line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.5rem !important;
+}
+
+section {
+  padding-top: 150px;
+}
+
+footer {
+  padding-bottom: 10px;
+  padding-top: 60px;
+  border: 1px solid #171f38;
+}
+
+.primary_btn {
+  background: #171f38 !important;
+  padding: 7px 25px;
+  border: 1px solid #01d293;
+  border-radius: 5px;
+}
+
+.primary_btn a {
+  text-decoration: none;
+  color: #01d293;
+  background: transparent !important;
+}
+
+.secondery_btn {
+  color: transparent;
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+
+}
+
+.secondery_btn a {
+  color: #01d293;
+  text-decoration: none;
+}
+
+.primary_btn a:hover,
+.secondery_btn a:hover {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #808dad;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #171f38;
+}
+
+
+@media only screen and (max-width:992px) {
+  p {
+    font-size: 0.9rem !important;
   }
-  body {
-    color: white;
-    background: black;
+
+  .primary_btn a,
+  .secondery_btn a {
+    font-size: 0.9rem;
   }
+
 }
